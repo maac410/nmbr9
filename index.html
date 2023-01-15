@@ -6,14 +6,20 @@
     <title>Document</title>
     <link rel="stylesheet" href="./src/ui.css">
     <script src="./src/render.js" type="module" defer></script>
+    <link rel="stylesheet" href="./src/card/card.css">
     <script src="./src/game.js" type="module" defer></script>
     <script src="./src/nmbr.js" type="module" defer></script>
+    <script src="./src/card/card.js"  type="module" defer></script>
     <script src="./src/init.js" type="module" defer></script>
-    <script src="./src/ui.js"  type="module" defer></script>
 </head>
 <body>
     <h1>Hello World!</h1>
-    <canvas class="canvas-game" id="board"></canvas>
     <div id="cards"></div>    
+    <section id="board"></section>
+    <section class="deck_wrapper">
+        <button id="deck" class="btn-card">deck</button>
+        <ul id="cards"></ul>
+    </section>
+    <canvas class="canvas-game" id="canvas-game"></canvas>
 </body>
 </html>

@@ -1,0 +1,23 @@
+{
+  "name": "nmbr9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maac410/nmbr9.git"
+  },
+  "author": "Cristhian, Kevin, Miguel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maac410/nmbr9/issues"
+  },
+  "homepage": "https://github.com/maac410/nmbr9#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

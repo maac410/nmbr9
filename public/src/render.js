@@ -47,7 +47,7 @@ function drawNmbr(context, nmbr) {
   nmbr.rotation.forEach((row, indexRow)=> {
     row.forEach((col,indexCol) => {
       if(col !== 0){
-        drawTile(context, nmbr.posY + indexRow, nmbr.posY + indexCol, nmbr)
+        drawTile(context, nmbr.posX + indexRow, nmbr.posY + indexCol, nmbr)
       }
     })
   });

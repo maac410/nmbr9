@@ -1,0 +1,28 @@
+.card{
+  width: 100px;
+  height: 120px;
+  color: white;
+  background-color: black;
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 120px;
+}
+
+.btn-card {
+  width: 100px;
+  height: 120px;
+  color: white;
+  background-color: black;
+  font-size: 24px;
+  font-weight: bold;  
+}
+
+.deck_wrapper {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+
+.btn-card ~ ul .card {
+  margin-left: 0;
+}

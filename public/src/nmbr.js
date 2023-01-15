@@ -1,32 +1,42 @@
-export default {
-    0: {
+export default [
+    {
+        number: 0,
         color: 'lightgray'
     },
-    1: {
+    {
+        number: 1,
         color: 'brown'
     },
-    2: {
+    {
+        number: 2,
         color: 'orange'
     },
-    3: {
+    {
+        number: 3,
         color: 'yellow'
     },
-    4: {
+    {
+        number: 4,
         color: 'green'
     },
-    5: {
+    {
+        number: 5,
         color: 'cyan'
     },
-    6: {
+    {
+        number: 6,
         color: 'blue'
     },
-    7: {
+    {
+        number: 7,
         color: 'purple'
     },
-    8: {
+    {
+        number: 8,
         color: 'pink'
     },
-    9: {
+    {
+        number: 9,
         color: 'red'
     },
-}
+]

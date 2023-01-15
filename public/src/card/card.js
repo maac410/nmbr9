@@ -38,7 +38,6 @@ function getNmbr(){
 export default function init() {
   NMBR_CARDS.forEach(addNmbrTwice);
   elements.cards.sort(shuffleArr);
-
   elements.deckEl.addEventListener("click", () => {
     getNmbr();
     if(!elements.cards.length){

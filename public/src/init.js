@@ -1,5 +1,5 @@
-import nmbrs from './nmbr.js'
+import card from './card/card.js'
 
 (function init() {
-    console.log('INICIALIZANDO LA APP', nmbrs);
+    card();
 })()

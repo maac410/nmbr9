@@ -1,9 +1,17 @@
-export default {
+const NMBR_CARDS = {
     0: {
-        color: 'lightgray'
+        color: 'lightgray',
+        rotation: [
+            [[1,1,1,1],[1,0,0,1],[1,1,1,1]],
+            [[1,1,1],[1,0,1],[1,0,1],[1,1,1]],
+            [[1,1,1,1],[1,0,0,1],[1,1,1,1]],
+            [[1,1,1],[1,0,1],[1,0,1],[1,1,1]],
+            [[1,1,1],[1,0,1],[1,0,1],[1,1,1]]
+        ]
     },
     1: {
-        color: 'brown'
+        color: 'brown',
+        rotation: [[[0,0,1,1],[0,0,0,1,],[0,0,0,1],[0,0,0,1]]]
     },
     2: {
         color: 'orange'
@@ -30,3 +38,14 @@ export default {
         color: 'red'
     },
 }
+class Nmbr {
+  constructor(posX, posY, type, rotation) {
+    this.posX = posX;
+    this.posY = posY;
+    this.type = type
+    this.rotation = NMBR_CARDS[type].rotation[rotation]
+    this.color = NMBR_CARDS[type].color
+  }
+}
+
+export default Nmbr

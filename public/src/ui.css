@@ -2,6 +2,11 @@ h1{
   color: brown;
 }
 
+.canvas-game {
+  width: 800px;
+  height: 800px;
+}
+
 ul{
   list-style: none;
   padding-left: 0;

@@ -1,4 +1,4 @@
-import nmbrs from '../nmbr.js'
+import {NMBR_CARDS} from '../nmbr.js'
 
 const elements = {
   cards: [],
@@ -36,7 +36,7 @@ function getNmbr(){
 
 
 export default function init() {
-  nmbrs.forEach(addNmbrTwice);
+  NMBR_CARDS.forEach(addNmbrTwice);
   elements.cards.sort(shuffleArr);
 
   elements.deckEl.addEventListener("click", () => {
